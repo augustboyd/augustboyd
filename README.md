@@ -1,16 +1,15 @@
-## Hi there 👋
+```python
 
-<!--
-**augustboyd/augustboyd** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class RecentGrad:
 
-Here are some ideas to get you started:
+  def __init__(self):
+    self.name = "August Boyd"
+    self.skills = ["Python", "Java", "HTML/CSS"]
+    self.languages = ["en_US", "es_UY"]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  def say_hey(self):
+    print("Welcome, take a look around!")
+
+me = RecentGrad()
+me.say_hey()   
+
